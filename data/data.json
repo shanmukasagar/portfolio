@@ -1,0 +1,130 @@
+{
+    "home": {
+      "name": "Shanmuka Sagar",
+      "title": "A MERN STACK WEB DEVELOPER",
+      "desc": "I’m a MERN full-stack web developer, specializing in building responsive front-end applications with seamless back-end integration. Passionate about delivering user-focused solutions that are scalable, efficient, and high-performing."
+    },
+    "about" : {
+        "aboutme1": "I am Shanmukasagar, a skilled MERN Stack Developer with 2 years of experience building responsive and dynamic web applications using cutting-edge technologies like React.js, Next.js, Node.js, and MongoDB. I have a proven track record of developing scalable RESTful APIs and managing efficient database operations.",
+        "aboutme2": "I am passionate about leveraging my expertise to create seamless user experiences and robust backend solutions. With a growing interest in blockchain technology, I am eager to expand my knowledge in decentralized applications and contribute to innovative projects in the Web3 space.",
+        "profile" : "/assets/About/my-profile.jpeg"
+    },
+    "skills" : [
+        {
+            "name" : "HTML",
+            "image" :"/assets/skills/html.png"
+        },
+        {
+            "name" : "CSS",
+            "image" :"/assets/skills/css.png"
+        },
+        {
+            "name" : "Javascript",
+            "image" :"/assets/skills/javascript.png"
+        },
+        {
+            "name" : "ReactJs",
+            "image" :"/assets/skills/react.png"
+        },
+        {
+            "name" : "NextJs",
+            "image" :"/assets/skills/nextjs.png"
+        },
+        {
+            "name" : "Material-UI",
+            "image" :"/assets/skills/mui.png"
+        },
+        {
+            "name" : "SASS",
+            "image" :"/assets/skills/sass.png"
+        },
+        {
+            "name" : "Tailwind",
+            "image" :"/assets/skills/tailwind.png"
+        },
+        {
+            "name" : "Redux",
+            "image" :"/assets/skills/Redux.png"
+        },
+        {
+            "name" : "NodeJs",
+            "image" :"/assets/skills/node.png"
+        },
+        {
+            "name" : "Express",
+            "image" :"/assets/skills/express.png"
+        },
+        {
+            "name" : "Mongodb",
+            "image" :"/assets/skills/mongo.png"
+        },
+        {
+            "name" : "MY-SQL",
+            "image" :"/assets/skills/mysql.png"
+        },
+        {
+            "name" : "Git",
+            "image" :"/assets/skills/git.png"
+        },
+        {
+            "name" : "GitHub",
+            "image" :"/assets/skills/github1.png"
+        }
+    ],
+    "projects" : [
+        {
+            "id": "1",
+            "name":"Chat-Application",
+            "title":"React JS",
+            "image":"/assets/projects/chat.png",
+            "stack":"NextJs/Tailwind",
+            "url":"/project/1",
+            "demo":"/demo/1",
+            "githubLink":"https://github.com/shanmukasagar/chart-application",
+            "technologies": [ "ReactJs", "SCSS", "NodeJs", "ExpressJs", "Mongodb", "Web-Sokets"]
+        },
+        {   "id": "2",
+            "name":"Online Grocery-Store",
+            "title":"Next JS",
+            "stack":"NextJs/SASS",
+            "image":"/assets/projects/grocery-hub.png",
+            "url":"/project/2",
+            "demo":"/demo/2",
+            "githubLink":"https://github.com/shanmukasagar/Grocery-hub",
+            "technologies": [ "NextJs", "SASS", "NodeJs", "ExpressJs", "Mongodb", "Stripe"]
+        },
+        {   "id": "3",
+            "name":"HTML Text Editor",
+            "title":"React JS",
+            "stack":"React Js/SASS",
+            "image":"/assets/projects/TextEditor.png",
+            "url":"/project/3",
+            "demo":"/demo/3",
+            "githubLink":"https://github.com/shanmukasagar/HTML-Text-Editor",
+            "technologies": [ "ReactJs", "SASS", "Javascript", "MaterialUI"]
+        },
+        {   "id": "4",
+            "name":"Receipt Generation",
+            "title":"React JS",
+            "stack":"React Js/SASS",
+            "image":"/assets/projects/receipt-generate.png",
+            "url":"/project/4",
+            "demo":"/demo/4",
+            "githubLink":"https://github.com/shanmukasagar/ReceiptGeneration",
+            "technologies": [ "ReactJs", "SASS", "MaterialUI", "ExpressJs", "NodeJs"]
+        }
+    ],
+    "contact":{
+        "name":"Shanmuka Sagar",
+        "title":"MERN Stack Web Developer",
+        "desc":"I am available for freelance or full-time positions. Contact me, and let's talk!",
+        "image":"/assets/contact/contact.jpg"
+    },
+    "links" : {
+        "linkedin" : "https://www.linkedin.com/in/shanmukasagar/",
+        "github" : "https://github.com/shanmukasagar/about",
+        "mail" : "shanmukasagar2019@gmail.com",
+        "phone" : "+918688345501"
+    }
+  }
+  
