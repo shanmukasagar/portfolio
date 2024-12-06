@@ -10,6 +10,7 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/navigation';
 import { usePathname } from 'next/navigation';
+import data from "../data/data.json";
 
 
 const Navbar = () => {
@@ -108,18 +109,26 @@ const Navbar = () => {
                         <div className='pt-40'>
                             <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn className='text-blue-700' />
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaGithub className='text-gray-800' />
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <IoMdMail className='text-red-500' />
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <BsFillPersonLinesFill className='text-black'/>
-                                </div>
+                                <a href = {data.links.linkedin} target="_blank">
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                        <FaLinkedinIn className='text-blue-700' />
+                                    </div>
+                                </a>
+                                <a href = {data.links.github} target="_blank">
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                        <FaGithub className='text-gray-800' />
+                                    </div>
+                                </a>
+                                <a href={`mailto:${data.links.mail}`} >
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                        <IoMdMail className='text-red-500' />
+                                    </div>
+                                </a>
+                                <a href={`tel:${data.links.phone}`} >
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                        <BsFillPersonLinesFill className='text-black'/>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
