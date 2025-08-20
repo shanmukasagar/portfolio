@@ -1,14 +1,15 @@
 {
     "home": {
       "name": "Shanmuka Sagar",
-      "title": "A MERN STACK WEB DEVELOPER",
-      "desc": "I’m a MERN full-stack web developer, specializing in building responsive front-end applications with seamless back-end integration. Passionate about delivering user-focused solutions that are scalable, efficient, and high-performing."
+      "title": "MERN STACK DEVELOPER",
+       "desc": "I’m a MERN Stack Developer with over 2 years of experience building responsive, scalable web applications using React.js, Node.js, Express.js, and MongoDB. I have end-to-end expertise in developing dynamic UIs, crafting efficient RESTful APIs, managing databases, and deploying production-ready applications. Currently, I’m enhancing my skills in DevOps tools like Docker, Kubernetes, CI/CD, and AWS to optimize deployment workflows and system reliability. I’m actively seeking new opportunities that challenge me and help me grow as a full-stack developer."
+      },
+    "about": {
+        "aboutme1": "I’m Shanmukasagar, a MERN Stack Developer with 2+ years of experience building responsive and dynamic web applications using React.js, Node.js, Express.js, MongoDB, and PostgreSQL. Currently at NIMS, I developed a research-focused web application that enables students and faculty to upload medical research forms for review and approval by higher officials — handling the frontend, backend, database management, and deployment end-to-end.",
+        "aboutme2": "I specialize in crafting seamless user experiences, efficient RESTful APIs, and robust backend architectures, and I’m now expanding my skills in DevOps tools like Docker, Kubernetes, CI/CD, and AWS to enhance deployment efficiency and system reliability. I’m seeking opportunities that challenge me and accelerate my growth as a full-stack developer.",
+        "profile": "/assets/About/my-profile.jpeg"
     },
-    "about" : {
-        "aboutme1": "I am Shanmukasagar, a skilled MERN Stack Developer with 2 years of experience building responsive and dynamic web applications using cutting-edge technologies like React.js, Next.js, Node.js, and MongoDB. I have a proven track record of developing scalable RESTful APIs and managing efficient database operations.",
-        "aboutme2": "I am passionate about leveraging my expertise to create seamless user experiences and robust backend solutions. With a growing interest in blockchain technology, I am eager to expand my knowledge in decentralized applications and contribute to innovative projects in the Web3 space.",
-        "profile" : "/assets/About/my-profile.jpeg"
-    },
+
     "skills" : [
         {
             "name" : "HTML",
@@ -39,7 +40,7 @@
             "image" :"/assets/skills/sass.png"
         },
         {
-            "name" : "Tailwind",
+            "name" : "Tailwind CSS",
             "image" :"/assets/skills/tailwind.png"
         },
         {
@@ -59,8 +60,8 @@
             "image" :"/assets/skills/mongo.png"
         },
         {
-            "name" : "MY-SQL",
-            "image" :"/assets/skills/mysql.png"
+            "name" : "PostgreSQL",
+            "image" :"/assets/skills/postgresql.png"
         },
         {
             "name" : "Git",
@@ -69,8 +70,50 @@
         {
             "name" : "GitHub",
             "image" :"/assets/skills/github1.png"
+        },
+        {
+            "name" : "Docker",
+            "image" :"/assets/skills/docker.png"
+        },
+        {
+            "name" : "Kubernetes",
+            "image" :"/assets/skills/kubernetes.png"
+        },
+        {
+            "name" : "CI/CD",
+            "image" :"/assets/skills/ci-cd.png"
+        },
+        {
+            "name" : "AWS",
+            "image" :"/assets/skills/aws.png"
         }
     ],
+    
+    "experience": [
+        {
+        "role": "MERN Full Stack Developer",
+        "company": "NIMS",
+        "period": "March 2025 – Present",
+        "work": [
+            "Developed secure and responsive full-stack web applications using React.js, Node.js, Express.js, and MongoDB for government-backed medical research projects.",
+            "Built and optimized RESTful APIs and database queries, improving data handling efficiency and reducing system response times by up to 30%.",
+            "Conducted penetration testing, implemented JWT-based authentication, and enforced security best practices to safeguard against common vulnerabilities.",
+            "Integrated payment gateway and enhanced app performance using lazy loading and code-splitting, boosting user experience and load efficiency."
+        ]
+        },
+        {
+        "role": "MERN Full Stack Developer",
+        "company": "Snowa Technologies Pvt. Ltd.",
+        "period": "June 2023 – Feb 2025",
+        "work": [
+            "Developed responsive web pages with React.js, Material-UI, and Redux, boosting user engagement by 30%.",
+            "Built RESTful APIs using Node.js and Express.js, reducing data retrieval time by 25%.",
+            "Optimized MongoDB queries, cutting response time by 20%.",
+            "Improved cross-browser compatibility, reducing page load time by 15%."
+        ]
+        }
+    ],
+    
     "projects" : [
         {
             "id": "1",

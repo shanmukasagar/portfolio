@@ -125,7 +125,7 @@ const Contact = () => {
                         </div>
                       </a>
                     </div>
-                    <Link href="/assets/sagar/my resume.pdf" target="_blank">
+                    <Link href="/assets/sagar/Sagar_MERN_Resume.pdf" target="_blank">
                       <button type="button" className="px-2 py-2 w-[180px] mt-[10px] cursor-pointer">Resume</button>
                     </Link>
                 </div>
