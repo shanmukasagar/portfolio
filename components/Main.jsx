@@ -38,7 +38,7 @@ const Main = () => {
                         </div>
                     </a>
                 </div>
-                <Link href="/assets/sagar/Sagar_MERN_Resume.pdf" target="_blank">
+                <Link href="/assets/sagar/ShanmukaSagar_MERN_Stack_Resume.pdf" target="_blank">
                     <button type="button" className="px-2 py-2 w-[180px] mt-6 cursor-pointer">Resume</button>
                 </Link>
             </div>

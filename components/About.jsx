@@ -5,7 +5,7 @@ import data from '../data/data.json'
 const About = () => {
   return (
     <div id='about' className='w-full md:h-screen p-6 flex items-center py-16'>
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 '>
+      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 items-center'>
         <div className='col-span-2 mt-20 lg:mt-2'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
@@ -22,9 +22,15 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-full p-1 hover:scale-105 ease-in duration-300'>
-          <img src={data.about.profile} className='rounded-full' alt='/' />
+        <div className="w-[280px] h-[280px] mx-auto rounded-full overflow-hidden shadow-xl shadow-gray-400 hover:scale-105 duration-300">
+          <img
+            src={data.about.profile}
+            alt="profile"
+            className="w-full h-full object-cover"
+          />
         </div>
+
+
       </div>
     </div>
   )

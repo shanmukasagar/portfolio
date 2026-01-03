@@ -2,12 +2,12 @@
     "home": {
       "name": "Shanmuka Sagar",
       "title": "MERN STACK DEVELOPER",
-       "desc": "I’m a MERN Stack Developer with over 2 years of experience building responsive, scalable web applications using React.js, Node.js, Express.js, and MongoDB. I have end-to-end expertise in developing dynamic UIs, crafting efficient RESTful APIs, managing databases, and deploying production-ready applications. Currently, I’m enhancing my skills in DevOps tools like Docker, Kubernetes, CI/CD, and AWS to optimize deployment workflows and system reliability. I’m actively seeking new opportunities that challenge me and help me grow as a full-stack developer."
+       "desc": "I’m a MERN Stack Developer with over 2.7 years of experience building responsive, scalable web applications using React.js, Node.js, Express.js, and MongoDB. I have end-to-end expertise in developing dynamic UIs, crafting efficient RESTful APIs, managing databases, and deploying production-ready applications. Currently, I’m enhancing my skills in DevOps tools like Docker, Kubernetes, CI/CD, and AWS to optimize deployment workflows and system reliability. I’m actively seeking new opportunities that challenge me and help me grow as a full-stack developer."
       },
     "about": {
-        "aboutme1": "I’m Shanmukasagar, a MERN Stack Developer with 2+ years of experience building responsive and dynamic web applications using React.js, Node.js, Express.js, MongoDB, and PostgreSQL. Currently at NIMS, I developed a research-focused web application that enables students and faculty to upload medical research forms for review and approval by higher officials — handling the frontend, backend, database management, and deployment end-to-end.",
+        "aboutme1": "I’m Shanmukasagar, a MERN Stack Developer with 2.7 years of experience building responsive and dynamic web applications using React.js, Node.js, Express.js, MongoDB, and PostgreSQL. Currently at NIMS, I developed a research-focused web application that enables students and faculty to upload medical research forms for review and approval by higher officials — handling the frontend, backend, database management, and deployment end-to-end.",
         "aboutme2": "I specialize in crafting seamless user experiences, efficient RESTful APIs, and robust backend architectures, and I’m now expanding my skills in DevOps tools like Docker, Kubernetes, CI/CD, and AWS to enhance deployment efficiency and system reliability. I’m seeking opportunities that challenge me and accelerate my growth as a full-stack developer.",
-        "profile": "/assets/About/my-profile.jpeg"
+        "profile": "/assets/About/sagar image.jpeg"
     },
 
     "skills" : [
@@ -91,26 +91,37 @@
     
     "experience": [
         {
-        "role": "MERN Full Stack Developer",
-        "company": "NIMS",
-        "period": "March 2025 – Present",
-        "work": [
-            "Developed secure and responsive full-stack web applications using React.js, Node.js, Express.js, and MongoDB for government-backed medical research projects.",
-            "Built and optimized RESTful APIs and database queries, improving data handling efficiency and reducing system response times by up to 30%.",
-            "Conducted penetration testing, implemented JWT-based authentication, and enforced security best practices to safeguard against common vulnerabilities.",
-            "Integrated payment gateway and enhanced app performance using lazy loading and code-splitting, boosting user experience and load efficiency."
-        ]
+            "role": "MERN Full Stack Developer",
+            "company": "NIMS",
+            "period": "March 2025 – Present",
+            "work": [
+                "Developed and maintained full-stack applications using React.js, Node.js, Express.js, and MongoDB, improving system stability and data workflows.",
+                "Optimized RESTful APIs and database queries through indexing, caching, and refactoring, reducing response time by up to 30%.",
+                "Implemented JWT-based authentication, role-based access control (RBAC), and secure API practices to strengthen application security.",
+                "Enhanced frontend performance using lazy loading, code-splitting, and Redux optimizations; deployed applications using Docker and Nginx for high reliability."
+            ]
         },
         {
-        "role": "MERN Full Stack Developer",
-        "company": "Snowa Technologies Pvt. Ltd.",
-        "period": "June 2023 – Feb 2025",
-        "work": [
-            "Developed responsive web pages with React.js, Material-UI, and Redux, boosting user engagement by 30%.",
-            "Built RESTful APIs using Node.js and Express.js, reducing data retrieval time by 25%.",
-            "Optimized MongoDB queries, cutting response time by 20%.",
-            "Improved cross-browser compatibility, reducing page load time by 15%."
-        ]
+            "role": "MERN Full Stack Developer",
+            "company": "Snowa Technologies Pvt. Ltd.",
+            "period": "June 2023 – Feb 2025",
+            "work": [
+                "Developed responsive user interfaces using React.js, Material-UI, and Redux, increasing user engagement by 30%.",
+                "Built and optimized RESTful APIs with Node.js and Express.js, reducing data fetch latency by 25%.",
+                "Enhanced MongoDB query performance by 20% through indexing, aggregation pipelines, and schema optimization.",
+                "Reduced page load time by 15% via asset optimization, caching strategies, and frontend performance auditing.",
+                "Collaborated cross-functionally with design, QA, and backend teams to deliver scalable MERN features with minimal defects."
+            ]
+        },
+        {
+            "role": "Frontend Developer Intern",
+            "company": "Virtusa Pvt. Ltd.",
+            "period": "Nov 2022 – Apr 2023",
+            "work": [
+                "Built responsive and dynamic user interfaces using React.js, JavaScript (ES6+), and SCSS, improving user engagement by 25%.",
+                "Integrated REST APIs with Redux for efficient state management, ensuring smooth data flow and reducing UI errors by 15%.",
+                "Optimized frontend performance using lazy loading and code-splitting, decreasing page load time by 20%."
+            ]
         }
     ],
     

@@ -139,7 +139,7 @@ const Contact = () => {
                     <div className='grid grid-cols-2 gap-4 w-full py-2'>
                         <div className='flex flex-col'>
                             <label className='uppercase text-sm py-2'>Name</label>
-                            <input
+                            <input 
                               type="text"
                               name="name"
                               value={form.name}
